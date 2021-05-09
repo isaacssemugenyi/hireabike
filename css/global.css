@@ -4,10 +4,21 @@
   }
 
   .carousel-item img {
-      position: absolute;
-      object-fit:cover;
-      top: 0;
-      left: 0;
-      max-height: 500px;
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    max-height: 500px;
   }
   /* End carousel styles */
+
+  /* How to hire section */
+  ol#instruction .main-step {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  ol#instruction .simple-step {
+    font-size: 17px;
+    color: blue;
+  }
