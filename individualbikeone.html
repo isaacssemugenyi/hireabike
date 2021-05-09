@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN loaded css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- External css -->
+    <link rel="stylesheet" href="/css/global.css">
+    <title>Index | Bike Site</title>
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bike Site</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Our Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Single bike container -->
+    <div class="container mt-5 bg-light">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-12 mt-3">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <img src="https://images.unsplash.com/photo-1597705942724-d7eac42b12ee?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGJpY3ljbGVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                    alt="bike on tree">
+                            </div>
+                            <div class="col-sm-12 col-md-6" style="padding-right: 15px;">
+                                <h3>Sport Bike</h3>
+                                <p style="text-align: justify;">The best bike you can hire with as little as money can
+                                    buy but still get a better experience and feel. This helps stay health, strong and
+                                    preserve the environment.</p>
+                                <p style="text-align: justify;">With the best and tested cycle technology and alot of
+                                    experience and hard work invested in this. We deliver the best with this sport bike.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mt-5">
+                        <h2 class="text-center">BICYCLE SPECIFICATION</h2>
+                        <table class="table table-bordered mt-3">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Specication</th>
+                                    <th scope="col">Unit of Measure</th>
+                                    <th scope="col">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Weight</td>
+                                    <td>Kgs</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Price</td>
+                                    <td>USD</td>
+                                    <td>50</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Manufacturer</td>
+                                    <td>__</td>
+                                    <td>Dutch Bikes</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>Type</td>
+                                    <td>__</td>
+                                    <td>Sport Bike</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Hiring Form -->
+                    <div class="offset-md-2 col-md-8 bg-white" style="padding: 10px;">
+                        <h5 class="text-center mt-3 mb-3">Hire A Bike Form</h5>
+                        <form type="submit" method="POST">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" class="form-control" placeholder="First name" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="lastName">Last Name</label>
+                                    <input type="text" class="form-control" placeholder="Last name" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="lastName">Email Address</label>
+                                    <input type="email" class="form-control" placeholder="Email Address" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="lastName">Phone Number</label>
+                                    <input type="number" class="form-control" placeholder="Phone Number" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="lastName">Start Date</label>
+                                    <input type="date" class="form-control" placeholder="Start Date" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="lastName">End Date</label>
+                                    <input type="date" class="form-control" placeholder="End Date" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="cardNumber">Card Number</label>
+                                    <input type="number" class="form-control" placeholder="Card Number" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="cardNumber">CVV</label>
+                                    <input type="number" class="form-control" placeholder="CVV" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label>Date of Expiry</label>
+                                    <input type="date" class="form-control" placeholder="Date of Expiry" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label>issued Date</label>
+                                    <input type="date" class="form-control" placeholder="Issued Date" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <input onclick="window.location.href='confirmation.html'" class="btn btn-primary btn-block" value="Hire Now"/>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- End Hiring Form -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End single bike container -->
+    <!-- start footer -->
+    <footer>
+        <nav class="nav nav-justified navbar-dark bg-dark">
+            <div class="nav-link" href="#">
+                <p class="text-light">Location</p>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Dustan Street</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Plot No. 556</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Boston Building</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-link" href="#">
+                <p class="text-light">Opening Hours</p>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Monday to Friay: 8:00 am - 5:00 pm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Saturday: 9:00 am - 3:00 pm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Holidays: Office Closed</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-link" href="#">
+                <p class="text-light">Quick Links</p>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">How to Hire</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    <!-- End footer -->
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+
+</html>
