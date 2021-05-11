@@ -107,56 +107,56 @@
                     <!-- Hiring Form -->
                     <div class="offset-md-2 col-md-8 bg-white" style="padding: 10px;">
                         <h5 class="text-center mt-3 mb-3">Hire A Bike Form</h5>
-                        <form type="submit" method="GET" action="/confirmation.html">
+                        <form method="GET" action="/confirmation.html">
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="firstName">First Name</label>
-                                    <input type="text" class="form-control" minlength="3" maxlength="20" placeholder="First name" required>
+                                    <input type="text" class="form-control" id="firstName" minlength="3" maxlength="20" placeholder="First name" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="lastName">Last Name</label>
-                                    <input type="text" class="form-control" minlength="3" maxlength="20" placeholder="Last name" required>
+                                    <input type="text" class="form-control" id="lastName" minlength="3" maxlength="20" placeholder="Last name" required>
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
-                                    <label for="lastName">Email Address</label>
-                                    <input type="email" class="form-control" placeholder="Email Address" 
+                                    <label for="email">Email Address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Email Address" 
                                     required>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="lastName">Phone Number</label>
-                                    <input type="number" class="form-control" placeholder="Phone Number" min="9" required>
+                                    <label for="phone">Phone Number</label>
+                                    <input type="number" class="form-control" id="phone" placeholder="Phone Number" min="9" required>
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="lastName">Start Date</label>
-                                    <input type="date" class="form-control" placeholder="Start Date" required>
+                                    <input type="date" class="form-control" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="lastName">End Date</label>
-                                    <input type="date" class="form-control" placeholder="End Date" required>
+                                    <input type="date" class="form-control" required>
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="cardNumber">Card Number</label>
-                                    <input type="number" class="form-control" min="16" placeholder="Card Number" required>
+                                    <input type="number" class="form-control" id="cardNumber" min="16" placeholder="Card Number" required>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="cardNumber">CVV</label>
-                                    <input type="number" class="form-control" min="3" placeholder="CVV" required>
+                                    <label for="cvv">CVV</label>
+                                    <input type="number" class="form-control" id="cvv" min="3" placeholder="CVV" required>
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label>Date of Expiry</label>
-                                    <input type="date" class="form-control" placeholder="Date of Expiry" required>
+                                    <input type="date" class="form-control" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label>issued Date</label>
-                                    <input type="date" class="form-control" placeholder="Issued Date" required>
+                                    <input type="date" class="form-control" required>
                                 </div>
                             </div>
 
@@ -223,7 +223,7 @@
         </nav>
     </footer>
     <!-- End footer -->
-</body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
 </html>

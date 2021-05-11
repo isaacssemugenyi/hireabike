@@ -17,12 +17,16 @@ html {
   /* End carousel styles */
 
   /* How to hire section */
-  ol#instruction .main-step {
+  p.instruction {
     font-size: 20px;
     font-weight: bold;
   }
 
-  ol#instruction .simple-step {
+  ol li.simple-step {
     font-size: 17px;
     color: blue;
+  }
+
+  ol ul li {
+    color: black;
   }
